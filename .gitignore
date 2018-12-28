@@ -1,10 +1,4 @@
 
-.idea/encodings.xml
-.idea/homeMonitor.iml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xml
 venv/Lib/site-packages/__pycache__/six.cpython-36.pyc
 venv/Lib/site-packages/Click-7.0.dist-info/INSTALLER
 venv/Lib/site-packages/Click-7.0.dist-info/LICENSE.txt
@@ -1643,3 +1637,9 @@ venv/Scripts/tk86t.dll
 venv/Scripts/unicodedata.pyd
 venv/Scripts/vcruntime140.dll
 venv/Scripts/winsound.pyd
+.idea/encodings.xml
+.idea/homeMonitor.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
