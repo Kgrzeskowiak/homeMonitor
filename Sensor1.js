@@ -8,10 +8,21 @@ class Sensor1 extends Panels{
     }
 show(root)
 {
-  
     var template = document.querySelector("#Sensor1");
     var templateClone = document.importNode(template.content,true);
     root.appendChild(templateClone);
+    var signalBox = root.querySelector("p")
+    this.dataHandler.webSocketHandler();
+    this.dataHandler.movementEvent.addListener(event => {
+        if (event == "true")
+        {
+            signalBox.innerText = "Ruch"
+        }
+        else
+        {
+            signalBox.innerText = "Brak"
+        }
+    })
     this.launchChart();
     var asynchRequest = this.dataHandler.getJson();
     asynchRequest.then(json =>
@@ -27,7 +38,6 @@ show(root)
 }
 launchChart()
 {
-   
     var ctx = document.getElementById("myChart");
     var timeFormat = 'MM/DD/YYYY HH:mm';
     this.chart = new Chart(ctx, {
@@ -62,5 +72,12 @@ addHumidityData(chart, data) {
 }
 addLabels(chart, label) {
     chart.data.labels.push(label)
+}
+showMovement()
+{
+  
+    
+    // console.log(r)
+
 }
 }
