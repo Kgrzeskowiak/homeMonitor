@@ -12,19 +12,19 @@ show(root)
     var templateClone = document.importNode(template.content,true);
     root.appendChild(templateClone);
     var signalBox = root.querySelector("p")
-    this.dataHandler.webSocketHandler();
-    this.dataHandler.movementEvent.addListener(event => {
-        if (event == "true")
-        {
-            signalBox.innerText = "Ruch"
-        }
-        else
-        {
-            signalBox.innerText = "Brak"
-        }
-    })
+    // this.dataHandler.webSocketHandler();
+    // this.dataHandler.movementEvent.addListener(event => {
+    //     if (event == "true")
+    //     {
+    //         signalBox.innerText = "Ruch"
+    //     }
+    //     else
+    //     {
+    //         signalBox.innerText = "Brak"
+    //     }
+    // })
     this.launchChart();
-    var asynchRequest = this.dataHandler.getJson();
+    var asynchRequest = this.dataHandler.getTemperatureJson();
     asynchRequest.then(json =>
         {
             json.forEach(reading =>
