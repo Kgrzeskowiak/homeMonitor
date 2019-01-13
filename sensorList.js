@@ -7,6 +7,7 @@ class SensorList extends Panels{
         this.sensorTable = ""
         this.interval = 900000
         this.refreshTable()
+        this.dataHandler.webSocketHandler()
     }
     show(root)
     {

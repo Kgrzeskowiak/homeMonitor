@@ -18,8 +18,8 @@
 
 
 
-  <link crossorigin="anonymous" media="all" integrity="sha512-lLo2nlsdl+bHLu6PGvC2j3wfP45RnK4wKQLiPnCDcuXfU38AiD+JCdMywnF3WbJC1jaxe3lAI6AM4uJuMFBLEw==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-08fc49d3bd2694c870ea23d0906f3610.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-+ZQwBfJw0+vWamxjWgu2B3g58zCABOB1yRj/kGGVcZmXuZ6wTWkVwNWaOgy285h5vdw4VuUp57FjdiVujwnkHw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-b43e758c845fa54305d34a4b97d30922.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-pWLt6abkYhNeAHaDrPVG0yXCtIGRuCkwSUqQpsyN6smAIpIt+Iuq2IZKmoH9l3Cy/9ZnjvVrFZnvFFjGiqE3EA==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-a3b8a10d4a9e37a78f033ef4a4f525f5.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-CP+9X35+fbpUSVeas9LknNct5b94CtOxn9krZDxsyGJMvrGqWaiJMCG57bPpMktuuF6dcI6TVVYJJMyj2PtnAQ==" rel="stylesheet" href="https://github.githubassets.com/assets/github-3a3976e2811f7801e52f1fc0355c84e2.css" />
   
   
   
@@ -38,10 +38,10 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/10566080?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="socketio/socket.io-client" /><meta property="og:url" content="https://github.com/socketio/socket.io-client" /><meta property="og:description" content="Realtime application framework (client). Contribute to socketio/socket.io-client development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzUzOTg5NDY4OjBkYmNkZDdkM2VhODQ2YjRiMWI3YTA3NGM0NDY0ZDMyZjViYzY3MzM3MDA2NTE1YWY3MTE3ZjAxMTZmOGRmZWM=--d7e60e12cfb050595f30411de3e9dbd1d241373b">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzUzOTg5NDY4OjIzYjA5ZDcyMDZhYWMxZmUwYzhhMTA1YmZiYmVlY2I5YjkxMDgwYTVhNjJiZjgzY2I5MGNkNjk1MzcyZjU2MTc=--8d00b66759b9e4be7e47b5e15f4898a14c8cc27f">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="C17B:7905:F8E8B02:15F03C15:5C1E96DD" data-pjax-transient>
+  <meta name="request-id" content="C182:2E19E:2B8C832:41D68DA:5C3BB087" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C17B:7905:F8E8B02:15F03C15:5C1E96DD" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="32195190" /><meta name="octolytics-actor-login" content="Kgrzeskowiak" /><meta name="octolytics-actor-hash" content="801eb19606f1c4465a3ddff161a505ed5926133183c9a6b8758fe2d26c06e7e0" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C182:2E19E:2B8C832:41D68DA:5C3BB087" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="32195190" /><meta name="octolytics-actor-login" content="Kgrzeskowiak" /><meta name="octolytics-actor-hash" content="801eb19606f1c4465a3ddff161a505ed5926133183c9a6b8758fe2d26c06e7e0" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -71,13 +71,13 @@
     <meta name="user-login" content="Kgrzeskowiak">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="YTZmMGEzYWU3ODY0MmUzYjA1NzY0ZDM1ODZiZTBiOGRiYTBhMDIyMTNjZTNkMDc0NjcwZjYxODUxMmQxZmVlNXx7InJlbW90ZV9hZGRyZXNzIjoiNS4xNzMuMzIuMjI2IiwicmVxdWVzdF9pZCI6IkMxN0I6NzkwNTpGOEU4QjAyOjE1RjAzQzE1OjVDMUU5NkREIiwidGltZXN0YW1wIjoxNTQ1NTA4NTc5LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="YWQ3NTYzNmQyNDA2ZmY5ZmVlMjQ1ODhiZDY5ZjM3YmU5NDVlZmUyMDI4OWI2OWJhZjAzYjE1YTBhNjFmMzYyZnx7InJlbW90ZV9hZGRyZXNzIjoiODMuMjAuMzYuNzUiLCJyZXF1ZXN0X2lkIjoiQzE4MjoyRTE5RToyQjhDODMyOjQxRDY4REE6NUMzQkIwODciLCJ0aW1lc3RhbXAiOjE1NDc0MTU2OTIsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR,NOTIFY_ON_BLOCK,RELATED_ISSUES,MARKETPLACE_INSIGHTS_V2">
 
   <meta name="html-safe-nonce" content="0e551953b6e885ec9e5faf26bfc34b26adc8c377">
 
-  <meta http-equiv="x-pjax-version" content="dcf479d97247df77ce4929e5f45d2480">
+  <meta http-equiv="x-pjax-version" content="28022040b2b507a42e06d57be4928cdc">
   
 
       <link href="https://github.com/socketio/socket.io-client/commits/master.atom" rel="alternate" title="Recent Commits to socket.io-client:master" type="application/atom+xml">
@@ -156,7 +156,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=+Zcpz/yF3aWDyQY8oFmP4EOBOFZhmPUtywQ78KMMTOxdnoyLSziU2669t/qsTGq14szLe1tPogk6jJ2KZXprUw=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=3GkmQ2kFRfKHwKei0XuGxe3rxpL/aaBop4x1IKo7Meh4YIMH3rgMjKq0FmTdbmOQTKY1v8W+90xWBNNabE0WVw=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -371,8 +371,125 @@
         <ul>
           <li class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="/Kgrzeskowiak" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">Kgrzeskowiak</strong></a></li>
           <li class="dropdown-divider"></li>
+          <li class="px-3 f6 user-status-container js-user-status-context pb-1" data-url="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1">
+            
+<div class="js-user-status-container user-status-compact" data-team-hovercards-enabled>
+  <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
+    <summary class="btn-link no-underline js-toggle-user-status-edit toggle-user-status-edit width-full" aria-haspopup="dialog">
+      <div class="f6 d-inline-block v-align-middle  user-status-emoji-only-header pl-0 circle lh-condensed user-status-header " style="max-width: 29px">
+        <div class="user-status-emoji-container flex-shrink-0 mr-1">
+          <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 0 1-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 0 1-1.45-2.17A6.59 6.59 0 0 1 1.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 0 1 8 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"/></svg>
+        </div>
+      </div>
+      <div class="d-inline-block v-align-middle user-status-message-wrapper f6 lh-condensed ws-normal pt-1">
+          <span class="link-gray">Set your status</span>
+      </div>
+    </summary>
+    <details-dialog class="anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="rkntalw+cyUS2pVAQvuxjOdV9pw1LuFnotYQ29vK5xHJrPu4Y0Wpva5R0NB96FoiZk+pJ1Xv3uxPYOcd51ye8w==" />
+        <div class="Box-header">
+          <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
+            <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+          </button>
+          <h3 class="Box-title text-gray-dark">Edit status</h3>
+        </div>
+        <input type="hidden" name="emoji" class="js-user-status-emoji-field" value="">
+        <input type="hidden" name="organization_id" class="js-user-status-org-id-field" value="">
+        <div class="px-3 py-2 text-gray-dark">
+          <div class="js-characters-remaining-container js-suggester-container position-relative mt-2">
+            <div class="input-group">
+              <span class="input-group-button">
+                <button type="button" aria-label="Choose an emoji" class="btn-outline btn js-toggle-user-status-emoji-picker">
+                  <span class="js-user-status-original-emoji" hidden></span>
+                  <span class="js-user-status-custom-emoji"></span>
+                  <span class="js-user-status-no-emoji-icon" >
+                    <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 0 1-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 0 1-1.45-2.17A6.59 6.59 0 0 1 1.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 0 1 8 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"/></svg>
+                  </span>
+                </button>
+              </span>
+              <input type="text" autocomplete="off" autofocus data-maxlength="80" class="js-suggester-field form-control js-user-status-message-field js-characters-remaining-field" placeholder="What's happening?" name="message" required value="" aria-label="What is your current status?">
+            </div>
+            <div class="suggester-container">
+              <div class="suggester js-suggester js-navigation-container" data-url="/autocomplete/user-suggestions" data-no-org-url="/autocomplete/user-suggestions" data-org-url="/suggestions" hidden>
+              </div>
+            </div>
+            <div style="margin-left: 53px" class="my-1 text-small label-characters-remaining js-characters-remaining" data-suffix="remaining" hidden>
+              80 remaining
+            </div>
+          </div>
+          <include-fragment class="js-user-status-emoji-picker" data-url="/users/status/emoji"></include-fragment>
+          <div class="overflow-auto" style="max-height: 33vh">
+            <div class="user-status-suggestions js-user-status-suggestions">
+              <h4 class="f6 text-normal my-3">Suggestions:</h4>
+              <div class="mx-3 mt-2 clearfix">
+                  <div class="float-left col-6">
+                      <button type="button" value=":palm_tree:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="palm_tree" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f334.png">🌴</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message" style="border-left: 1px solid transparent">
+                          On vacation
+                        </div>
+                      </button>
+                      <button type="button" value=":face_with_thermometer:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="face_with_thermometer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f912.png">🤒</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message" style="border-left: 1px solid transparent">
+                          Out sick
+                        </div>
+                      </button>
+                  </div>
+                  <div class="float-left col-6">
+                      <button type="button" value=":house:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="house" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e0.png">🏠</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message" style="border-left: 1px solid transparent">
+                          Working from home
+                        </div>
+                      </button>
+                      <button type="button" value=":dart:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="dart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png">🎯</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message" style="border-left: 1px solid transparent">
+                          Focusing
+                        </div>
+                      </button>
+                  </div>
+              </div>
+            </div>
+            <div class="user-status-limited-availability-container">
+              <div class="form-checkbox my-0">
+                <input type="checkbox" name="limited_availability" value="1" class="js-user-status-limited-availability-checkbox" data-default-message="I may be slow to respond." aria-describedby="limited-availability-help-text-truncate-true" id="limited-availability-truncate-true">
+                <label class="d-block f5 text-gray-dark mb-1" for="limited-availability-truncate-true">
+                  Busy
+                </label>
+                <p class="note" id="limited-availability-help-text-truncate-true">
+                  When others mention you, assign you, or request your review,
+                  GitHub will let them know that you have limited availability.
+                </p>
+              </div>
+            </div>
+          </div>
+          <include-fragment class="js-user-status-org-picker" data-url="/users/status/organizations"></include-fragment>
+        </div>
+        <div class="d-flex flex-items-center flex-justify-between p-3 border-top">
+          <button type="submit" disabled class="width-full btn btn-primary mr-2 js-user-status-submit">
+            Set status
+          </button>
+          <button type="button" disabled class="width-full js-clear-user-status-button btn ml-2 ">
+            Clear status
+          </button>
+        </div>
+</form>    </details-dialog>
+  </details>
 
+</div>
 
+          </li>
+          <li class="dropdown-divider"></li>
           <li><a role="menuitem" class="dropdown-item" href="/Kgrzeskowiak" data-ga-click="Header, go to profile, text:your profile">Your profile</a></li>
           <li><a role="menuitem" class="dropdown-item" href="/Kgrzeskowiak?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories">Your repositories</a></li>
 
@@ -383,7 +500,7 @@
           <li><a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a></li>
           <li><a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a></li>
           <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qLD79LQa+nRblH6MraySn0ea/xf6jiCVTHmf9LUaddkFihv3jErRa/8Xkdf7kxFIUv9HmtHOmb7aMUjle91VKw==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="JYt+pd1LabluXXOa/Nxy1r7zchFFRCbbnifn9tYVRoOIsZ6m5RtCpsrenMGq4/EBq5bKnG4En/AIbzDnGNJmcQ==" />
               
               <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
                 Sign out
@@ -397,7 +514,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5r9dDYhh6vb/HhUgXxbkg0AJVa8eLu1ZwgBoo6Gej4lLhb0OsDHB6Vud+nsJKWdUVWztIjVuVHJUSL+yb1mvew==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wS7p+n6BHAwawvCwb8eMuVjBS/C9qf5+iN6uhWvZxJZsFAn5RtE3E75BH+s5+A9uTaTzfZbpR1UelnmUpR7kZA==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -431,12 +548,13 @@
 
 
 
+
   <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
     <div class="repohead-details-container clearfix container">
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="sjp0rt8zWh5WPL49sDWmDGTWEiktX4W+L0AFziwrgi9oktdhmPmugznkH9bgCYCujY1h2fT/X4HG3jq/lm09Cw==" />      <input type="hidden" name="repository_id" id="repository_id" value="557977" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5FU5zpePO8TQhBcHck5Q7KnFqE6NnUGoO6kFAwVvJjA+/ZoB0EXPWb9ctuwicnZOQJ7bvlQ9m5fSNzpyvymZFA==" />      <input type="hidden" name="repository_id" id="repository_id" value="557977" class="form-control" />
 
       <details class="details-reset details-overlay select-menu float-left">
         <summary class="btn btn-sm btn-with-count select-menu-button" data-ga-click="Repository, click Watch settings, action:blob#show">
@@ -502,15 +620,15 @@
       </details>
       <a class="social-count js-social-count"
         href="/socketio/socket.io-client/watchers"
-        aria-label="313 users are watching this repository">
-        313
+        aria-label="314 users are watching this repository">
+        314
       </a>
 </form>
   </li>
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/socketio/socket.io-client/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="d/M3kKeyuRm0DUnbXvd+M+OQa0IWaQhjPD+ISss0i7hO3fOTc4UKnwptWVvjfPYIDC9jifXYH3gSlUgAHFSvZw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/socketio/socket.io-client/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="48XtJOK/fQKa2RCPWO3+M+MCSDiKiVCS2ZhYLnxV5DXa6yknNojOhCS5AA/lZnYIDL1A82k4R4n3MphkqzXA6g==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -521,11 +639,11 @@
         Unstar
       </button>
         <a class="social-count js-social-count" href="/socketio/socket.io-client/stargazers"
-           aria-label="6664 users starred this repository">
-          6,664
+           aria-label="6753 users starred this repository">
+          6,753
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/socketio/socket.io-client/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="elMzoD1osJ8GsWye/UXvWXqxSRzNZSRWQ6f0VCtTp9ndQ4dv39XqiuYgTP5csMYH6nd/pLjCXFDEr5Ea6tqBNw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/socketio/socket.io-client/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="w6w6OXKZxnFYk7TEjaC7+BtqvQHz71te6YR6YqevlrhkvI72kCScZLgClKQsVZKmi6yLuYZII1hujB8sZiawVg==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -536,15 +654,15 @@
         Star
       </button>
         <a class="social-count js-social-count" href="/socketio/socket.io-client/stargazers"
-           aria-label="6664 users starred this repository">
-          6,664
+           aria-label="6753 users starred this repository">
+          6,753
         </a>
 </form>  </div>
 
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/socketio/socket.io-client/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3CNERYEliukdTAN5K8sJW5m9UHArD3t+qsx5tPDzOHpdd8qT8Fb2UlQVc/xqH9D6sadSiq3+onlbmkK/kkG/Jg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/socketio/socket.io-client/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="X8cmlv0Bl5gpMz3Uw5rRTWlXI05nTLTrtWU82OaORXPek6hAjHLrI2BqTVGCTgjsQU0htOG9bexEMwfThDzCLw==" />
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -556,8 +674,8 @@
             </button>
 </form>
     <a href="/socketio/socket.io-client/network/members" class="social-count"
-       aria-label="2297 users forked this repository">
-      2,297
+       aria-label="2314 users forked this repository">
+      2,314
     </a>
   </li>
 </ul>
@@ -589,7 +707,7 @@
       <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /socketio/socket.io-client/issues" href="/socketio/socket.io-client/issues">
         <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
         <span itemprop="name">Issues</span>
-        <span class="Counter">124</span>
+        <span class="Counter">127</span>
         <meta itemprop="position" content="2">
 </a>    </span>
 
@@ -597,7 +715,7 @@
     <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /socketio/socket.io-client/pulls" href="/socketio/socket.io-client/pulls">
       <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
-      <span class="Counter">11</span>
+      <span class="Counter">12</span>
       <meta itemprop="position" content="3">
 </a>  </span>
 
@@ -636,8 +754,8 @@
 
     <div class="file-navigation">
       
-<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left "
-  >
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left js-load-contents"
+  data-contents-url="/socketio/socket.io-client/ref-list/master/dist/socket.io.js?source_action=show&amp;source_controller=blob">
   <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
     
     type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
@@ -647,1125 +765,10 @@
 
   <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
     <div class="select-menu-modal">
-        
-<div class="select-menu-header">
-  <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-  <span class="select-menu-title">Switch branches/tags</span>
-</div>
-
-<tab-container>
-<div class="select-menu-filters">
-  <div class="select-menu-text-filter">
-    <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
-  </div>
-  <div class="select-menu-tabs" role="tablist">
-    <ul>
-      <li class="select-menu-tab">
-        <button type="button" class="select-menu-tab-nav" data-filter-placeholder="Filter branches/tags" role="tab" aria-selected="true">Branches</button>
-      </li>
-      <li class="select-menu-tab">
-        <button type="button" class="select-menu-tab-nav" data-filter-placeholder="Find a tag…" role="tab">Tags</button>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="select-menu-list" role="tabpanel">
-  <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-         href="/socketio/socket.io-client/blob/1.3.3-fix/dist/socket.io.js"
-         data-name="1.3.3-fix"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          1.3.3-fix
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-         href="/socketio/socket.io-client/blob/1.3.5-fix/dist/socket.io.js"
-         data-name="1.3.5-fix"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          1.3.5-fix
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-         href="/socketio/socket.io-client/blob/1.3.6-patch/dist/socket.io.js"
-         data-name="1.3.6-patch"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          1.3.6-patch
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-         href="/socketio/socket.io-client/blob/1.3.7-patch/dist/socket.io.js"
-         data-name="1.3.7-patch"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          1.3.7-patch
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-         href="/socketio/socket.io-client/blob/1.4.7-pre/dist/socket.io.js"
-         data-name="1.4.7-pre"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          1.4.7-pre
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-         href="/socketio/socket.io-client/blob/1.7.x/dist/socket.io.js"
-         data-name="1.7.x"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          1.7.x
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-         href="/socketio/socket.io-client/blob/develop/dist/socket.io.js"
-         data-name="develop"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          develop
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open selected"
-         href="/socketio/socket.io-client/blob/master/dist/socket.io.js"
-         data-name="master"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          master
-        </span>
-      </a>
-  </div>
-
-    <div class="select-menu-no-results">Nothing to show</div>
-</div>
-
-<div class="select-menu-list" role="tabpanel" hidden>
-  <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/2.2.0/dist/socket.io.js"
-        data-name="2.2.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="2.2.0">
-          2.2.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/2.1.1/dist/socket.io.js"
-        data-name="2.1.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="2.1.1">
-          2.1.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/2.1.0/dist/socket.io.js"
-        data-name="2.1.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="2.1.0">
-          2.1.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/2.0.4/dist/socket.io.js"
-        data-name="2.0.4"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="2.0.4">
-          2.0.4
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/2.0.3/dist/socket.io.js"
-        data-name="2.0.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="2.0.3">
-          2.0.3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/2.0.2/dist/socket.io.js"
-        data-name="2.0.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="2.0.2">
-          2.0.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/2.0.1/dist/socket.io.js"
-        data-name="2.0.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="2.0.1">
-          2.0.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/2.0.0/dist/socket.io.js"
-        data-name="2.0.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="2.0.0">
-          2.0.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.7.4/dist/socket.io.js"
-        data-name="1.7.4"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.7.4">
-          1.7.4
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.7.3/dist/socket.io.js"
-        data-name="1.7.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.7.3">
-          1.7.3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.7.2/dist/socket.io.js"
-        data-name="1.7.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.7.2">
-          1.7.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.7.1/dist/socket.io.js"
-        data-name="1.7.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.7.1">
-          1.7.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.7.0/dist/socket.io.js"
-        data-name="1.7.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.7.0">
-          1.7.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.6.0/dist/socket.io.js"
-        data-name="1.6.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.6.0">
-          1.6.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.5.1/dist/socket.io.js"
-        data-name="1.5.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.5.1">
-          1.5.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.5.0/dist/socket.io.js"
-        data-name="1.5.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.5.0">
-          1.5.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.4.8/dist/socket.io.js"
-        data-name="1.4.8"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.4.8">
-          1.4.8
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.4.7/dist/socket.io.js"
-        data-name="1.4.7"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.4.7">
-          1.4.7
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.4.6/dist/socket.io.js"
-        data-name="1.4.6"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.4.6">
-          1.4.6
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.4.5/dist/socket.io.js"
-        data-name="1.4.5"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.4.5">
-          1.4.5
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.4.4/dist/socket.io.js"
-        data-name="1.4.4"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.4.4">
-          1.4.4
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.4.3/dist/socket.io.js"
-        data-name="1.4.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.4.3">
-          1.4.3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.4.2/dist/socket.io.js"
-        data-name="1.4.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.4.2">
-          1.4.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.4.1/dist/socket.io.js"
-        data-name="1.4.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.4.1">
-          1.4.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.4.0/dist/socket.io.js"
-        data-name="1.4.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.4.0">
-          1.4.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.3.7/dist/socket.io.js"
-        data-name="1.3.7"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.3.7">
-          1.3.7
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.3.6/dist/socket.io.js"
-        data-name="1.3.6"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.3.6">
-          1.3.6
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.3.5/dist/socket.io.js"
-        data-name="1.3.5"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.3.5">
-          1.3.5
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.3.4/dist/socket.io.js"
-        data-name="1.3.4"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.3.4">
-          1.3.4
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.3.3/dist/socket.io.js"
-        data-name="1.3.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.3.3">
-          1.3.3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.3.2/dist/socket.io.js"
-        data-name="1.3.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.3.2">
-          1.3.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.3.1/dist/socket.io.js"
-        data-name="1.3.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.3.1">
-          1.3.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.3.0/dist/socket.io.js"
-        data-name="1.3.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.3.0">
-          1.3.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.2.1/dist/socket.io.js"
-        data-name="1.2.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.2.1">
-          1.2.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.2.0/dist/socket.io.js"
-        data-name="1.2.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.2.0">
-          1.2.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.1.0/dist/socket.io.js"
-        data-name="1.1.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.1.0">
-          1.1.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.6/dist/socket.io.js"
-        data-name="1.0.6"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.6">
-          1.0.6
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.5/dist/socket.io.js"
-        data-name="1.0.5"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.5">
-          1.0.5
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.4/dist/socket.io.js"
-        data-name="1.0.4"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.4">
-          1.0.4
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.3/dist/socket.io.js"
-        data-name="1.0.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.3">
-          1.0.3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.2/dist/socket.io.js"
-        data-name="1.0.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.2">
-          1.0.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.1/dist/socket.io.js"
-        data-name="1.0.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.1">
-          1.0.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.0/dist/socket.io.js"
-        data-name="1.0.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.0">
-          1.0.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.0-pre5/dist/socket.io.js"
-        data-name="1.0.0-pre5"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.0-pre5">
-          1.0.0-pre5
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.0-pre4/dist/socket.io.js"
-        data-name="1.0.0-pre4"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.0-pre4">
-          1.0.0-pre4
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.0-pre3/dist/socket.io.js"
-        data-name="1.0.0-pre3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.0-pre3">
-          1.0.0-pre3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.0-pre2/dist/socket.io.js"
-        data-name="1.0.0-pre2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.0-pre2">
-          1.0.0-pre2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/1.0.0-pre/dist/socket.io.js"
-        data-name="1.0.0-pre"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="1.0.0-pre">
-          1.0.0-pre
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.17/dist/socket.io.js"
-        data-name="0.9.17"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.17">
-          0.9.17
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.16/dist/socket.io.js"
-        data-name="0.9.16"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.16">
-          0.9.16
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.15/dist/socket.io.js"
-        data-name="0.9.15"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.15">
-          0.9.15
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.11/dist/socket.io.js"
-        data-name="0.9.11"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.11">
-          0.9.11
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.10/dist/socket.io.js"
-        data-name="0.9.10"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.10">
-          0.9.10
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.9/dist/socket.io.js"
-        data-name="0.9.9"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.9">
-          0.9.9
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.8/dist/socket.io.js"
-        data-name="0.9.8"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.8">
-          0.9.8
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.7/dist/socket.io.js"
-        data-name="0.9.7"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.7">
-          0.9.7
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.6/dist/socket.io.js"
-        data-name="0.9.6"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.6">
-          0.9.6
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.5/dist/socket.io.js"
-        data-name="0.9.5"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.5">
-          0.9.5
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.4/dist/socket.io.js"
-        data-name="0.9.4"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.4">
-          0.9.4
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.3/dist/socket.io.js"
-        data-name="0.9.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.3">
-          0.9.3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.2/dist/socket.io.js"
-        data-name="0.9.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.2">
-          0.9.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.1/dist/socket.io.js"
-        data-name="0.9.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.1">
-          0.9.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.1-1/dist/socket.io.js"
-        data-name="0.9.1-1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.1-1">
-          0.9.1-1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.9.0/dist/socket.io.js"
-        data-name="0.9.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.9.0">
-          0.9.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.8.7/dist/socket.io.js"
-        data-name="0.8.7"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.8.7">
-          0.8.7
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.8.6/dist/socket.io.js"
-        data-name="0.8.6"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.8.6">
-          0.8.6
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.8.5/dist/socket.io.js"
-        data-name="0.8.5"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.8.5">
-          0.8.5
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.8.4/dist/socket.io.js"
-        data-name="0.8.4"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.8.4">
-          0.8.4
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.8.3/dist/socket.io.js"
-        data-name="0.8.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.8.3">
-          0.8.3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.8.2/dist/socket.io.js"
-        data-name="0.8.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.8.2">
-          0.8.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.8.1/dist/socket.io.js"
-        data-name="0.8.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.8.1">
-          0.8.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.8.0/dist/socket.io.js"
-        data-name="0.8.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.8.0">
-          0.8.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.7.11/dist/socket.io.js"
-        data-name="0.7.11"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.7.11">
-          0.7.11
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.7.10/dist/socket.io.js"
-        data-name="0.7.10"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.7.10">
-          0.7.10
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.7.9/dist/socket.io.js"
-        data-name="0.7.9"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.7.9">
-          0.7.9
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.7.5/dist/socket.io.js"
-        data-name="0.7.5"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.7.5">
-          0.7.5
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.7.4/dist/socket.io.js"
-        data-name="0.7.4"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.7.4">
-          0.7.4
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.7.3/dist/socket.io.js"
-        data-name="0.7.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.7.3">
-          0.7.3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.7.2/dist/socket.io.js"
-        data-name="0.7.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.7.2">
-          0.7.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.7.1/dist/socket.io.js"
-        data-name="0.7.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.7.1">
-          0.7.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.7.0/dist/socket.io.js"
-        data-name="0.7.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.7.0">
-          0.7.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.6.3/dist/socket.io.js"
-        data-name="0.6.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.6.3">
-          0.6.3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.6.2/dist/socket.io.js"
-        data-name="0.6.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.6.2">
-          0.6.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.6.1/dist/socket.io.js"
-        data-name="0.6.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.6.1">
-          0.6.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.6/dist/socket.io.js"
-        data-name="0.6"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.6">
-          0.6
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.5.3/dist/socket.io.js"
-        data-name="0.5.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.5.3">
-          0.5.3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.5.2/dist/socket.io.js"
-        data-name="0.5.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.5.2">
-          0.5.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.5.1/dist/socket.io.js"
-        data-name="0.5.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.5.1">
-          0.5.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.5/dist/socket.io.js"
-        data-name="0.5"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.5">
-          0.5
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.2.4/dist/socket.io.js"
-        data-name="0.2.4"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.2.4">
-          0.2.4
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.2.3/dist/socket.io.js"
-        data-name="0.2.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.2.3">
-          0.2.3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.2.2/dist/socket.io.js"
-        data-name="0.2.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.2.2">
-          0.2.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.2.1/dist/socket.io.js"
-        data-name="0.2.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.2.1">
-          0.2.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.2.0/dist/socket.io.js"
-        data-name="0.2.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.2.0">
-          0.2.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.1.8/dist/socket.io.js"
-        data-name="0.1.8"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.1.8">
-          0.1.8
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.1.7/dist/socket.io.js"
-        data-name="0.1.7"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.1.7">
-          0.1.7
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.1.6/dist/socket.io.js"
-        data-name="0.1.6"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.1.6">
-          0.1.6
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.1.5/dist/socket.io.js"
-        data-name="0.1.5"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.1.5">
-          0.1.5
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.1.4/dist/socket.io.js"
-        data-name="0.1.4"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.1.4">
-          0.1.4
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/socketio/socket.io-client/blob/0.1.3/dist/socket.io.js"
-        data-name="0.1.3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="0.1.3">
-          0.1.3
-        </span>
-      </a>
-  </div>
-
-  <div class="select-menu-no-results">Nothing to show</div>
-</div>
-</tab-container>
-
-
+      <div class="js-select-menu-deferred-content"></div>
+      <div class="select-menu-loading-overlay anim-pulse">
+        <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
+      </div>
     </div>
   </div>
 </div>
@@ -1891,6 +894,7 @@
 
 
 
+
     <div class="file ">
       
 <div class="file-header">
@@ -1911,13 +915,13 @@
             <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/socketio/socket.io-client/edit/master/dist/socket.io.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/0sHCxXP1rl89dtqnb2uwStDSFFDj0ONbgHKS0i4WcAE05Rj/BVdgXhN1+5I/a/HgZu72fHCBvjDrGWEtbgWtw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/socketio/socket.io-client/edit/master/dist/socket.io.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="IybMHbk58pgTCxPILQj/Owq1mZqzlpckZSM2UnDS93bYvl91UON5oBezH0z4SP49oG1qEgHb0lHIjpmdjdK4AQ==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/socketio/socket.io-client/delete/master/dist/socket.io.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="nWyrLLa9hhPIY2OfHSY+TO2YY/C+bqFq+OhKStYvWvk4x0qKY0JoFcWpnNttAKCrs/LTmQF9o+1I+AE2Z4vygg==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/socketio/socket.io-client/delete/master/dist/socket.io.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/Wrczghx7wOezAoZz/eB+XrVnvvBY/rQSilPNi3k12NYwT1o3Y4BBZMG9V2/0R8eJL8ukn5w+Ff6OQRKnEB/GA==" />
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -2018,7 +1022,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.32036s from unicorn-5b88d5d85d-h5vfl">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2019 <span title="0.35043s from unicorn-79dc4dd6b4-8kv4s">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -2056,9 +1060,9 @@
 
 
     
-    <script crossorigin="anonymous" integrity="sha512-qj1Z4g+YDVWKElb6FC42CcUWNq8P0W9aiU0CtKWjzuEMO9tb8sbbJ48dWUkmaOIe7WlLJXkI4YsUCKMxRMxT5A==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-9ee26246cce2c45ef24accded28cdabe.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-iNWr9wGbDmqnbdomytxMiuceO/V2lX3dbGd/TsCrrjhBk+1YoWsNKioHSCrvfElF4xNtsMgMiyBXW7Wkj+WMZg==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-be15e106b4a7518f3a8ee2f63fa595ba.js"></script>
     
-    <script crossorigin="anonymous" async="async" integrity="sha512-YK1qKaJaboZghfxUvkZpVcxPUUE74mJclzBlt7BcsMQp37KQFQCIjO9ySZpwS3FdiPv2pmTEs5qakCIlGRVGwA==" type="application/javascript" src="https://github.githubassets.com/assets/github-f64ad9727bd629401c830ad67cd20b4c.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-Ax9sne1lTKdzfh0F6vdKlANYihU/azmqrw50drWL5Af78GsWJEurxarJN714ZtqmUEUdFqza4YZCKuG4YRzQHA==" type="application/javascript" src="https://github.githubassets.com/assets/github-a004f249d4a217e23cc0ccd89aa8f76c.js"></script>
     
     
     

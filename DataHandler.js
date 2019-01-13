@@ -35,21 +35,19 @@ getDeviceList()
     getDeviceListPromise = getDeviceListPromise.then(deviceList =>
         {
             var _jsonResults = JSON.parse(deviceList)
-            
+
             return _jsonResults
         })
     return getDeviceListPromise
 }
-// webSocketHandler()
-// {
-//     var socket = io.connect('http://localhost:5000');
-//     socket.on('any event', (msg) => {
-//         this.movementEvent.emit(msg);
-//         console.log(msg);
-// });
-//     socket.on('connect', function() {
-        
-//         socket.emit('my event', {data: 'I\'m connected!'});
-// });
-// }
+webSocketHandler()
+{
+    var socket = io('http://192.168.1.9:5000');
+    socket.on('sensor registered', function(msg){
+        console.log(msg)
+    })
+    // socket.on('connect', function(){});
+    // socket.on('event', function(data){});
+    // socket.on('disconnect', function(){});
+}
 }
