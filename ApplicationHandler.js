@@ -1,49 +1,86 @@
+/**
+ *
+ * @param {DataHandler} datahandler
+ */
+
 class ApplicationHandler {
-    constructor(root){
+    constructor(root, dataHandler, navbarController) {
         this.panelList = {};
         this.root = root;
-        this.navBar = document.querySelector("[data-name='Navbar']")
+        this.navBarTemperatureDropdown = document.querySelector("[data-name='TemperatureDropDown']")
+        this.dataHandler = dataHandler
+        this.sensorsList = {};
+        this.navbarController = navbarController;
+        this.addRegisteredDevices()
+    }
 
+    registerPanel(panel) {
+
+        this.panelList[panel.name] = panel;
     }
-registerPanel(panel){
-    this.panelList[panel.name] = panel;
-    this.addNewNavBarPanel(panel)
-}
-launchPanel(panelName){
-    var newPanel = null;
-    if (panelName == "ChartPanel")
+
+    addRegisteredDevices() {
+        var asynchRequest = this.dataHandler.getDeviceList()
+        asynchRequest.then(deviceList => {
+            Object.keys(deviceList).forEach((key) => {
+                if (typeof deviceList[key].type != "undefined") {
+                    this.addSensorToNavbar(deviceList[key].id, deviceList[key].type)
+
+                }
+            })
+        })
+    }
+
+    launchPanel(panelName) {
+        var newPanel = null;
+        if (panelName == "Dashboard") {
+            newPanel = this.panelList["Dashboard"]
+        }
+        if (panelName == "SensorList") {
+            newPanel = this.panelList["SensorList"]
+        }
+        if (typeof this.sensorsList[panelName] != "undefined")
+        {
+            if (panelName == this.sensorsList[panelName].instance.name) {
+                newPanel = this.sensorsList[panelName].instance
+            }
+        }
+        newPanel.remove(this.root);
+        newPanel.show(this.root);
+    }
+
+    addSensorToNavbar(id, type) {
+        this.sensorsList = this.navbarController.addSensorToDropdown(id, type)
+        this.registerPanel(this.sensorsList[id].instance)
+        this.sensorsList[id].dropDownItem.addEventListener('click', event => {
+            this.launchPanel(id)
+        })
+    }
+    removeSensorFromNavbar(id, type)
     {
-    newPanel = this.panelList["ChartPanel"]    
+        this.navbarController.removeSensorFromDropdown(id, type)
     }
-    if (panelName == "Sensor1")
-    {
-    newPanel = this.panelList["Sensor1"]
-    }
-    if (panelName == "SensorList")
-    {
-    newPanel = this.panelList["SensorList"]
-    }
-    newPanel.remove(this.root);
-    newPanel.show(this.root);
+
+    start(root) {
+
+        this.launchPanel("Dashboard");
+        let dashboard = document.querySelector("[data-name='DashboardLink']")
+        dashboard.addEventListener("click", event => {
+            this.launchPanel("Dashboard");
+        });
+        let sensor_list = document.querySelector("[data-name='SensorListLink']")
+        sensor_list.addEventListener("click", event => {
+            this.launchPanel("SensorList");
+        })
+        this.dataHandler.deviceConnectedEvent.addListener(client => {
+            if (client.type == 'temperature') {
+                this.addSensorToNavbar(client.id, client.type)
+            }
+        })
+        this.dataHandler.deviceDisconnectedEvent.addListener( client =>{
+            if (client.type == 'temperature') {
+                this.removeSensorFromNavbar(client.id, client.type)
+            }
+        })
 }
-addNewNavBarPanel(panel)
-{
-  
-}
-start(root){
-    this.launchPanel("Sensor1");
-    let sensor1_link = document.querySelector("[data-name='Sensor1Link']")
-    sensor1_link.addEventListener("click", event =>{
-        this.launchPanel("Sensor1");
-    });
-    let charts_link = document.querySelector("[data-name='ChartPanelLink']")
-    charts_link.addEventListener("click", event =>{
-        this.launchPanel("ChartPanel");
-    });
-    let sensor_list = document.querySelector("[data-name='SensorListLink']")
-    sensor_list.addEventListener("click", event =>{
-        this.launchPanel("SensorList");
-    })
-    
-}    
 }

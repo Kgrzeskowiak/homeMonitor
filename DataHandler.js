@@ -4,14 +4,35 @@ class DataHandler{
         this.temperatureEndpoint = "http://192.168.1.9:3000/temperature"
         this.devicesListEndpoint = "http://192.168.1.9:3000/deviceList"
         this.movementEvent = new EventEmitter();
+        this.deviceChangedEvent = new EventEmitter();
+        this.deviceConnectedEvent = new EventEmitter();
+        this.deviceDisconnectedEvent = new EventEmitter();
     }
-getTemperatureJson()
+getTemperaturesJson()
 {
 var getJsonPromise = new Promise((resolve, reject ) =>
 {
     const xhr = new XMLHttpRequest();
     xhr.open("GET", this.temperatureEndpoint);
     xhr.send();
+    xhr.onload = () => resolve(xhr.responseText);
+    xhr.onerror = () => reject(xhr.statusText);
+})
+    getJsonPromise = getJsonPromise.then(measurments =>
+        {
+        var _jsonResults = JSON.parse(measurments)
+        return _jsonResults;
+        })
+    return getJsonPromise;
+}
+getTemperatureJson(nodeName)
+{
+var getJsonPromise = new Promise((resolve, reject ) =>
+{
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", this.temperatureEndpoint);
+    xhr.setRequestHeader("name", nodeName)
+    xhr.send()
     xhr.onload = () => resolve(xhr.responseText);
     xhr.onerror = () => reject(xhr.statusText);
 })
@@ -43,9 +64,18 @@ getDeviceList()
 webSocketHandler()
 {
     var socket = io('http://192.168.1.9:5000');
-    socket.on('sensor registered', function(msg){
-        console.log(msg)
+    socket.on('sensor change', (msg) =>{
+        this.deviceChangedEvent.emit(msg);
     })
+    socket.on('device connected', (msg) =>
+    {
+        this.deviceConnectedEvent.emit(msg);
+    })
+    socket.on('device disconnected', (msg) =>
+    {
+        this.deviceDisconnectedEvent.emit(msg)
+    })
+    
     // socket.on('connect', function(){});
     // socket.on('event', function(data){});
     // socket.on('disconnect', function(){});

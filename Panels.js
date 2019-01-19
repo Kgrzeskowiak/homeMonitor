@@ -2,7 +2,6 @@ class Panels{
     constructor(root)
     {
         this.root = root;
-    
     }
 show()
     {
@@ -13,5 +12,6 @@ remove(root)
         {
             root.firstElementChild.remove();
         }
+
     }
 }
