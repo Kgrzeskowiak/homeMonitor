@@ -25,13 +25,13 @@ var getJsonPromise = new Promise((resolve, reject ) =>
         })
     return getJsonPromise;
 }
-getTemperatureJson(nodeName)
+getTemperatureJson(nodeName, timeRange)
 {
 var getJsonPromise = new Promise((resolve, reject ) =>
 {
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", this.temperatureEndpoint);
-    xhr.setRequestHeader("name", nodeName)
+    var reqUrl = this.temperatureEndpoint + '/?nodeName='+ nodeName + '&timeRange=' + timeRange
+    xhr.open("GET", reqUrl);
     xhr.send()
     xhr.onload = () => resolve(xhr.responseText);
     xhr.onerror = () => reject(xhr.statusText);

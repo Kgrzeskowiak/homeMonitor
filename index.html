@@ -58,6 +58,12 @@
     <P>root</P>
 </div>
 <template id="TemperatureSensorPanel">
+    <label for="rangeSelector" class="col-sm-2 col-form-label">Wybierz zakres:</label>
+    <select data-name="selectField" id="rangeSelector">
+    <option value="-1">24h</option>
+    <option value="-7">Tydzień</option>
+    <option value="-30">30 dni</option>
+        </select>
     <canvas id="temperatureChart" width="800" height="450"></canvas>
 </template>
 <template id="Sensor1">
