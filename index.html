@@ -10,12 +10,18 @@
     <script src="moment.js"></script>
     <script src="eventEmitter.js"></script>
     <script src="temperatureSensor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
     <script src="sensorList.js"></script>
     <script src="socket.io.js"></script>
+    <script src="errorHandler.js"></script>
     <script src="NavbarController.js">
     </script>
-    <script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin = "anonymous" ></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity = "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin = "anonymous" ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
@@ -28,7 +34,7 @@
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" data-name="navbarMain">
     <a class="navbar-brand" href="#">Home Monitor</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,8 +48,8 @@
             <li class="nav-item">
                 <a class="nav-link" href="#" data-name="SensorListLink">Lista czujników</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            <li class="nav-item dropdown invisible" data-name="temperatureDropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
                     Czujniki Temperatury
                 </a>
@@ -60,10 +66,10 @@
 <template id="TemperatureSensorPanel">
     <label for="rangeSelector" class="col-sm-2 col-form-label">Wybierz zakres:</label>
     <select data-name="selectField" id="rangeSelector">
-    <option value="-1">24h</option>
-    <option value="-7">Tydzień</option>
-    <option value="-30">30 dni</option>
-        </select>
+        <option value="-1">24h</option>
+        <option value="-7">Tydzień</option>
+        <option value="-30">30 dni</option>
+    </select>
     <canvas id="temperatureChart" width="800" height="450"></canvas>
 </template>
 <template id="Sensor1">
@@ -75,7 +81,6 @@
     </div>
 </template>
 <template id="SensorList">
-
     <table class="table">
         <thead>
         <tr>
@@ -90,11 +95,19 @@
     </table>
 </template>
 <template id="Dashboard"></template>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+<template id="ErrorPlaceholder">
+    <div class="alert alert-danger" role="alert">
+        <h4 class="alert-heading">Błąd</h4>
+        <p data-name="errorMessage"></p>
+        <hr>
+        <p class="mb-0" data-name="errorDetails"></p>
+    </div>
+</template>
 <script>
     document.addEventListener("DOMContentLoaded", event => {
         var root = document.getElementById("appRoot");
-        var dataHandler = new DataHandler();
+        var errorHandler = new ErrorHandler(root)
+        var dataHandler = new DataHandler(errorHandler);
         var navbarController = new NavbarController(root, dataHandler)
         var app = new ApplicationHandler(root, dataHandler, navbarController);
         dataHandler.webSocketHandler()

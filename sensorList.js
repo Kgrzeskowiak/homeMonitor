@@ -12,7 +12,6 @@ class SensorList extends Panels {
         var template = document.querySelector("#SensorList");
         var templateClone = document.importNode(template.content, true);
         root.appendChild(templateClone);
-        this.active = true;
         this.getAndUpdateDeviceList()
         this.dataHandler.deviceChangedEvent.addListener(() => {
             this.refreshTable()
