@@ -35,12 +35,12 @@ class SensorList extends Panels {
         // asynchRequest.then(deviceList => 
         //     {
         Object.keys(deviceList).forEach((key) => {
-            this.addTableRow(deviceList[key].id, deviceList[key].publisher, deviceList[key].topicSubscribed, deviceList[key].lastActivity)
+            this.addTableRow(deviceList[key].id, deviceList[key].publisher, deviceList[key].topicSubscribed, deviceList[key].lastActivity, deviceList[key].state)
         })
         // })
     }
 
-    addTableRow(name, publisher, listener, lastAcivity) {
+    addTableRow(name, publisher, listener, lastAcivity, state) {
         this.sensorTable = document.querySelector("[data-name='SensorListTable']")
         var row = this.sensorTable.insertRow()
 
@@ -51,6 +51,14 @@ class SensorList extends Panels {
         addRow(publisher)
         addRow(listener)
         addRow(moment(lastAcivity).fromNow())
+        if (state == "offline")
+        {
+            row.classList.add("table-danger")
+        }
+        if (state == "online")
+        {
+            row.classList.remove("table-danger")
+        }
     }
 
     refreshTable() {

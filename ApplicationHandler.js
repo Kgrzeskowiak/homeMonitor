@@ -4,13 +4,11 @@
  */
 
 class ApplicationHandler {
-    constructor(root, dataHandler, navbarController) {
+    constructor(root, dataHandler) {
         this.panelList = {};
         this.root = root;
-        this.navBarTemperatureDropdown = document.querySelector("[data-name='TemperatureDropDown']")
+        this.navbarController = new NavbarController(root, dataHandler)
         this.dataHandler = dataHandler
-        this.sensorsList = {};
-        this.navbarController = navbarController;
         this.addRegisteredDevices()
     }
 
@@ -24,7 +22,8 @@ class ApplicationHandler {
         asynchRequest.then(deviceList => {
             Object.keys(deviceList).forEach((key) => {
                 if (typeof deviceList[key].type != "undefined") {
-                    this.addSensorToNavbar(deviceList[key].id, deviceList[key].type)
+                    this.navbarController.addSensor(deviceList[key].id, deviceList[key].type, deviceList[key].state)
+                    // this.addSensorToNavbar(deviceList[key].id, deviceList[key].type)
 
                 }
             })
@@ -33,34 +32,10 @@ class ApplicationHandler {
 
     launchPanel(panelName) {
         var newPanel = null;
-        if (panelName == "Dashboard") {
-            newPanel = this.panelList["Dashboard"]
-        }
-        if (panelName == "SensorList") {
-            newPanel = this.panelList["SensorList"]
-        }
-        if (typeof this.sensorsList[panelName] != "undefined")
-        {
-            if (panelName == this.sensorsList[panelName].instance.name) {
-                newPanel = this.sensorsList[panelName].instance
-            }
-        }
+        newPanel = this.panelList[panelName]
         newPanel.remove(this.root);
         newPanel.show(this.root);
     }
-
-    addSensorToNavbar(id, type) {
-        this.sensorsList = this.navbarController.addSensorToDropdown(id, type)
-        this.registerPanel(this.sensorsList[id].instance)
-        this.sensorsList[id].dropDownItem.addEventListener('click', event => {
-            this.launchPanel(id)
-        })
-    }
-    removeSensorFromNavbar(id, type)
-    {
-        this.navbarController.removeSensorFromDropdown(id, type)
-    }
-
     start(root) {
 
         this.launchPanel("Dashboard");
@@ -74,13 +49,21 @@ class ApplicationHandler {
         })
         this.dataHandler.deviceConnectedEvent.addListener(client => {
             if (client.type == 'temperature') {
-                this.addSensorToNavbar(client.id, client.type)
+                this.navbarController.addSensor(client.id, client.type, client.state)
+              //  this.addSensorToNavbar(client.id, client.type, client.state)
             }
         })
         this.dataHandler.deviceDisconnectedEvent.addListener( client =>{
             if (client.type == 'temperature') {
-                this.removeSensorFromNavbar(client.id, client.type)
+                this.navbarController.setOffLine(client.id, client.type, "offline")
             }
+        })
+        this.navbarController.dropdownElementClicked.addListener(element => {
+            this.launchPanel(element)
+        })
+        this.navbarController.sensorInstanceCreated.addListener(instance =>
+        {
+            this.registerPanel(instance)
         })
 }
 }

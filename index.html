@@ -108,8 +108,8 @@
         var root = document.getElementById("appRoot");
         var errorHandler = new ErrorHandler(root)
         var dataHandler = new DataHandler(errorHandler);
-        var navbarController = new NavbarController(root, dataHandler)
-        var app = new ApplicationHandler(root, dataHandler, navbarController);
+        // var navbarController = new NavbarController(root, dataHandler)
+        var app = new ApplicationHandler(root, dataHandler);
         dataHandler.webSocketHandler()
         app.registerPanel(new SensorList(app, dataHandler));
         app.registerPanel(new ChartPanel(app));
