@@ -27,9 +27,47 @@
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/weather-icons.css">
     <style>
         table {
             table-layout: fixed
+        }
+
+        .fa-thermometer {
+            text-shadow: 3px 3px 16px #272634;
+        }
+
+        .fa {
+            font-size: 4em;
+            padding: 0.25em;
+            color: #fff;
+        }
+
+        .temp {
+            font-weight: bold;
+            color: white;
+            font-size: 2em;
+        }
+        .container-fluid {
+            text-align: center;
+            color : white;
+        }
+        div p {
+            font-weight: bold;
+            font-size: 2em;
+        }
+        .wi {
+            font-size: 4em;
+            padding: 0.25em;
+            color: #fff;
+            text-shadow: 3px 3px 16px #272634;
+        }
+        .tileLocation {
+            position : absolute;
+            font-size: 1em;
+            right : 20px;
+            top : 10px;
         }
     </style>
 </head>
@@ -60,8 +98,7 @@
         </ul>
     </div>
 </nav>
-<div id="appRoot" class="container">
-    <P>root</P>
+<div id="appRoot">
 </div>
 <template id="TemperatureSensorPanel">
     <label for="rangeSelector" class="col-sm-2 col-form-label">Wybierz zakres:</label>
@@ -81,20 +118,86 @@
     </div>
 </template>
 <template id="SensorList">
-    <table class="table">
-        <thead>
-        <tr>
-            <th scope="col">Nazwa</th>
-            <th scope="col">Publikowanie</th>
-            <th scope="col">Nasłuch</th>
-            <th scope="col">Ostatnia aktualiazcja</th>
-        </tr>
-        <tbody data-name="SensorListTable">
-        </tbody>
-        </thead>
-    </table>
+    <div class="container">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Nazwa</th>
+                <th scope="col">Publikowanie</th>
+                <th scope="col">Nasłuch</th>
+                <th scope="col">Ostatnia aktualiazcja</th>
+            </tr>
+            <tbody data-name="SensorListTable">
+            </tbody>
+            </thead>
+        </table>
+    </div>
 </template>
-<template id="Dashboard"></template>
+<template id="Dashboard">
+    <div class="container-fluid">
+        <div class="row no-gutters mt-3">
+            <div class="col mx-1" data-name="ThermometerFloor">
+                <div class="py-1">
+                    <p class="tileLocation">PIĘTRO</p>
+                    <i class="fa fa-thermometer"></i>
+                </div>
+                <div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col mx-1" data-name="TheromometerGroundFloor">
+                <div class="py-1">
+                    <p class="tileLocation">PARTER</p>
+                    <i class="fa fa-thermometer fa-3x"></i>
+                </div>
+                <div>
+                    <p></p>
+                </div>
+
+            </div>
+            <div class="col mx-1" data-name="ThermometerOutside">
+                <div class="py-1">
+                    <p class="tileLocation">NA ZEWNĄTRZ</p>
+                    <i class="fa fa-thermometer">
+                    </i>
+                </div>
+                <div>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters mt-3">
+            <div class="col mx-1" data-name="HumidityFloor">
+                <div class="py-1">
+                    <p class="tileLocation">PIĘTRO</p>
+                    <i class="wi wi-humidity"></i></div>
+                <div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col mx-1" data-name="HumidityGroundFloor" >
+                <div class="py-1">
+                    <p class="tileLocation">PARTER</p>
+                    <i class="wi wi-humidity"></i>
+                </div>
+                <div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col mx-1" data-name="HumidityOutside">
+                <div class="py-1">
+                    <p class="tileLocation">NA ZEWNĄTRZ</p>
+                    <i class="wi wi-humidity"></i>
+                </div>
+                <div>
+                    <p></p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</template>
 <template id="ErrorPlaceholder">
     <div class="alert alert-danger" role="alert">
         <h4 class="alert-heading">Błąd</h4>

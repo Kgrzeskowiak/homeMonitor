@@ -2,7 +2,6 @@
  *
  * @param {DataHandler} datahandler
  */
-
 class ApplicationHandler {
     constructor(root, dataHandler) {
         this.panelList = {};

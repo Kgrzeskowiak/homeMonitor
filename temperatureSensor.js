@@ -1,3 +1,4 @@
+
 class TemperatureSensor extends Panels {
     constructor(name, type, root, dh) {
         super()
